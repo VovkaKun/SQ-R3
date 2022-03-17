@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SQ R3</title>
+  <link rel="shortcut icon" type="image/x-icon" href="images/logo-white.svg" width="16" height="16">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+<div class="wrapper">
+
+  <header class="header">
+  <div class="container header__container">
+    <a class="header__logo" href="#">
+      <img class="header__img" src="images/logo.svg" alt="logo">
+    </a>
+    <div class="header__menu menu">
+      <div class="menu__icon">
+        <span></span>
+      </div>
+      <nav class="menu__body">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a data-goto=".hero" class="menu__link" href="#">Home</a>
+          </li>
+          <li class="menu__item">
+            <a data-goto=".about" class="menu__link" href="#">About</a>
+          </li>
+          <li class="menu__item">
+            <a data-goto=".service" class="menu__link" href="#">Service</a>
+          </li>
+          <li class="menu__item">
+            <a data-goto=".furniture" class="menu__link" href="#">Furniture</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="menu__button-list">
+        <li class="menu__button-item">
+          <button class="btn" type="button">Order Now</button>
+        </li>
+        <li class="menu__button-item">
+          <button class="btn__search" type="button">
+            <svg class="btn__search-icon" width="30" height="30">
+              <use xlink:href="images/sprite.svg#search"></use>
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+  <main class="page">
+
+    <section class="hero section">
+  <div class="container__hero">
+    <div class="hero__inner" style="background-image: url('images/hero-bg.jpg');">
+      <div class="hero__social">
+        <div class="hero__social-icon">
+          <a class="hero__link" href="https://www.facebook.com/">
+            <svg class="hero__icon" width="30" height="30">
+              <use xlink:href="images/sprite.svg#facebook"></use>
+            </svg>
+          </a>
+          <a class="hero__link" href="https://www.instagram.com/">
+            <svg class="hero__icon" width="30" height="30">
+              <use xlink:href="images/sprite.svg#instagram"></use>
+            </svg>
+          </a>
+          <a class="hero__link" href="https://twitter.com/">
+            <svg class="hero__icon" width="30" height="30">
+              <use xlink:href="images/sprite.svg#twitter"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero__descr">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            Enjoy your life in our
+            luxurious furniture
+          </h1>
+          <p class="hero__text">
+            If you are looking for a furniture then you have
+            come to the right place.
+          </p>
+          <div class="btn">Order Now</div>
+        </div>
+      </div>
+    </div>
+    <table class="hero__table">
+      <tr class="hero__table-tr">
+        <td class="hero__table-td hero__table-number">
+          120
+          <span>K</span>
+        </td>
+        <td class="hero__table-td hero__table-number">
+          98
+          <span>K</span>
+        </td>
+        <td class="hero__table-td hero__table-number">
+          125
+          <span>K</span>
+        </td>
+      </tr>
+      <tr class="hero__table-tr">
+        <td class="hero__table-td hero__table-text">
+          Furniture Sale
+        </td>
+        <td class="hero__table-td hero__table-text hero__table-star">
+          Review
+          <svg class="hero__table-icon" width="20" height="20">
+            <use xlink:href="images/sprite.svg#hero-star"></use>
+          </svg>
+          <span>(4.5)</span>
+        </td>
+        <td class="hero__table-td hero__table-text">
+          Furniture Categories
+        </td>
+      </tr>
+    </table>
+  </div>
+</section>
+    <section class="about section">
+  <div class="container">
+    <h2 class="title">
+      Learn about us
+    </h2>
+    <span class="subtitle">
+      It’s short title here
+    </span>
+  </div>
+  <div class="container__hero">
+    <div class="about__inner">
+      <img class="about__img" src="images/about-img.jpg" alt="about us">
+      <div class="about__content">
+        <p class="about__text">
+          Lorem Ipsum has been the industry's standard dummy
+          text ever to since the 1500s, type and scrambled it
+          to make a type specimen book. It has survived not
+          only five centuries, but also the leap into electronic
+          typesetting. type and scrambled it to make a type specimen book.
+          It has survived not only five centuries,
+          but also the leap into electronic typesetting
+        </p>
+        <a class="btn btn__about" href="#">More about us</a>
+        <ul class="about__partners-list">
+          <li class="about__partners-item">
+            <img class="about__partners-img" src="images/amazon.png" alt="amazon label">
+          </li>
+          <li class="about__partners-item">
+            <img class="about__partners-img" src="images/alibaba.png" alt="alibaba label">
+          </li>
+          <li class="about__partners-item">
+            <img class="about__partners-img" src="images/some.png" alt="some label">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="service section">
+  <div class="container">
+    <h2 class="title">
+      We provide that service
+    </h2>
+    <span class="subtitle subtitle__service">
+      It is a long established fact that
+      a reader will be distracted by the service.
+    </span>
+    <ul class="service__list">
+      <li class="service__item service__item--delevary">
+        <h3 class="service__item-title">
+          Free Delevary
+        </h3>
+        <p class="service__item-text">
+          It is a long established fact
+          that a reader will be the service.
+        </p>
+      </li>
+      <li class="service__item service__item--guarnatee">
+        <h3 class="service__item-title">
+          100% Guarnatee
+        </h3>
+        <p class="service__item-text">
+          It is a long established fact
+          that a reader will be the service.
+        </p>
+      </li>
+      <li class="service__item service__item--quality">
+        <h3 class="service__item-title">
+          Best Quality
+        </h3>
+        <p class="service__item-text">
+          It is a long established fact
+          that a reader will be the service.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+    <section class="accordion section">
+  <div class="container">
+    <h2 class="title">Our bonuses</h2>
+    <span class="subtitle">
+      For our regular and future customers
+    </span>
+    <div class="accordion__item">
+      <div class="accordion__trigger">
+        <span class="accordion__num">01</span>
+        <h3 class="accordion__title">Free Delevary</h3>
+        <div class="accordion__plus">
+          <span class="accordion__plus-line1"></span>
+          <span class="accordion__plus-line2"></span>
+        </div>
+      </div>
+      <div class="accordion__content">
+        <p class="accordion__content-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Minima id libero vero ad tenetur doloribus.
+          Fugiat earum eum blanditiis, delectus accusamus consequatur
+          nam soluta ducimus voluptates? Officia similique obcaecati dolorem.
+        </p>
+      </div>
+    </div>
+    <div class="accordion__item">
+      <div class="accordion__trigger">
+        <span class="accordion__num">02</span>
+        <h3 class="accordion__title">100% Guarnatee</h3>
+        <div class="accordion__plus">
+          <span class="accordion__plus-line1"></span>
+          <span class="accordion__plus-line2"></span>
+        </div>
+      </div>
+      <div class="accordion__content">
+        <p class="accordion__content-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Minima id libero vero ad tenetur doloribus.
+          Fugiat earum eum blanditiis, delectus accusamus consequatur
+          nam soluta ducimus voluptates? Officia similique obcaecati dolorem.
+        </p>
+      </div>
+    </div>
+    <div class="accordion__item">
+      <div class="accordion__trigger">
+        <span class="accordion__num">03</span>
+        <h3 class="accordion__title">Best Quality</h3>
+        <div class="accordion__plus">
+          <span class="accordion__plus-line1"></span>
+          <span class="accordion__plus-line2"></span>
+        </div>
+      </div>
+      <div class="accordion__content">
+        <p class="accordion__content-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Minima id libero vero ad tenetur doloribus.
+          Fugiat earum eum blanditiis, delectus accusamus consequatur
+          nam soluta ducimus voluptates? Officia similique obcaecati dolorem.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="furniture section">
+  <div class="container">
+    <h2 class="title title__furniture">
+      Our Furniture
+    </h2>
+    <span class="subtitle subtitle__furniture">
+      It is a long established fact that
+      a reader will be distracted by the service.
+    </span>
+    <div class="furniture__top">
+      <form class="furniture__form" action="#">
+        <label class="furniture__label">
+          <input class="furniture__input" type="text" placeholder="Search a furniture" required>
+        </label>
+        <button class="btn btn__furniture" type="button">
+          <svg class="btn__furniture-icon" width="24" height="24">
+            <use xlink:href="images/sprite.svg#search"></use>
+          </svg>
+        </button>
+      </form>
+      <ul class="furniture__filter">
+        <li class="furniture__box">
+          <button class="furniture__btn mixitup-control-active" type="button" data-filter="all">All</button>
+        </li>
+        <li class="furniture__box">
+          <button class="furniture__btn" type="button" data-filter=".category-a">Chair</button>
+        </li>
+        <li class="furniture__box">
+          <button class="furniture__btn" type="button" data-filter=".category-b">Table</button>
+        </li>
+        <li class="furniture__box">
+          <button class="furniture__btn" type="button" data-filter=".category-c">Bed</button>
+        </li>
+        <li class="furniture__box">
+          <button class="furniture__btn" type="button" data-filter=".category-d">Sofa</button>
+        </li>
+        <li class="furniture__box">
+          <button class="furniture__btn" type="button" data-filter=".category-e">Bed</button>
+        </li>
+        <li class="furniture__box">
+          <button class="furniture__btn" type="button" data-filter=".category-f">Wardrobe</button>
+        </li>
+        <li class="furniture__box">
+          <button class="furniture__btn" type="button" data-filter=".category-g">Almirah</button>
+        </li>
+        <li class="furniture__box">
+          <button class="furniture__btn" type="button" data-filter=".category-h">Dimple</button>
+        </li>
+        <li class="furniture__box">
+          <button class="furniture__btn" type="button" data-filter=".category-i">Rack</button>
+        </li>
+        <li class="furniture__box">
+          <button class="furniture__btn" type="button" data-filter=".category-j">Stand</button>
+        </li>
+      </ul>
+    </div>
+    <ul class="furniture__content" id="MixItUp7C74C1">
+      <li class="furniture__item mix category-a">
+        <article class="product-card">
+          <a class="product-card__link" href="#">
+            <img class="product-card__img" src="images/furniture1.png" alt="product description" width="260"
+              height="175">
+            <div class="product-card__desc">
+              <h3 class="product-card__title">
+                Furniture Name
+              </h3>
+              <span class="product-card__price">$ 250</span>
+            </div>
+            <p class="product-card__text">
+              It is a long estiabs lished fact
+              that a reader will be the service.
+            </p>
+            <button class="btn btn__furniture">Order Now</button>
+          </a>
+        </article>
+      </li>
+      <li class="furniture__item mix category-a">
+        <article class="product-card">
+          <a class="product-card__link" href="#">
+            <img class="product-card__img" src="images/furniture8.png" alt="product description" width="260"
+              height="175">
+            <div class="product-card__desc">
+              <h3 class="product-card__title">
+                Furniture Name
+              </h3>
+              <span class="product-card__price">$ 250</span>
+            </div>
+            <p class="product-card__text">
+              It is a long estiabs lished fact
+              that a reader will be the service.
+            </p>
+            <button class="btn btn__furniture">Order Now</button>
+          </a>
+        </article>
+      </li>
+      <li class="furniture__item mix category-b">
+        <article class="product-card">
+          <a class="product-card__link" href="#">
+            <img class="product-card__img" src="images/furniture2.png" alt="product description" width="260"
+              height="175">
+            <div class="product-card__desc">
+              <h3 class="product-card__title">
+                Furniture Name
+              </h3>
+              <span class="product-card__price">$ 250</span>
+            </div>
+            <p class="product-card__text">
+              It is a long estiabs lished fact
+              that a reader will be the service.
+            </p>
+            <button class="btn btn__furniture">Order Now</button>
+          </a>
+        </article>
+      </li>
+      <li class="furniture__item mix category-b">
+        <article class="product-card">
+          <a class="product-card__link" href="#">
+            <img class="product-card__img" src="images/furniture7.png" alt="product description" width="260"
+              height="175">
+            <div class="product-card__desc">
+              <h3 class="product-card__title">
+                Furniture Name
+              </h3>
+              <span class="product-card__price">$ 250</span>
+            </div>
+            <p class="product-card__text">
+              It is a long estiabs lished fact
+              that a reader will be the service.
+            </p>
+            <button class="btn btn__furniture">Order Now</button>
+          </a>
+        </article>
+      </li>
+      <li class="furniture__item mix category-c">
+        <article class="product-card">
+          <a class="product-card__link" href="#">
+            <img class="product-card__img" src="images/furniture3.png" alt="product description" width="260"
+              height="175">
+            <div class="product-card__desc">
+              <h3 class="product-card__title">
+                Furniture Name
+              </h3>
+              <span class="product-card__price">$ 250</span>
+            </div>
+            <p class="product-card__text">
+              It is a long estiabs lished fact
+              that a reader will be the service.
+            </p>
+            <button class="btn btn__furniture">Order Now</button>
+          </a>
+        </article>
+      </li>
+      <li class="furniture__item mix category-c">
+        <article class="product-card">
+          <a class="product-card__link" href="#">
+            <img class="product-card__img" src="images/furniture6.png" alt="product description" width="260"
+              height="175">
+            <div class="product-card__desc">
+              <h3 class="product-card__title">
+                Furniture Name
+              </h3>
+              <span class="product-card__price">$ 250</span>
+            </div>
+            <p class="product-card__text">
+              It is a long estiabs lished fact
+              that a reader will be the service.
+            </p>
+            <button class="btn btn__furniture">Order Now</button>
+          </a>
+        </article>
+      </li>
+      <li class="furniture__item mix category-d">
+        <article class="product-card">
+          <a class="product-card__link" href="#">
+            <img class="product-card__img" src="images/furniture4.png" alt="product description" width="260"
+              height="175">
+            <div class="product-card__desc">
+              <h3 class="product-card__title">
+                Furniture Name
+              </h3>
+              <span class="product-card__price">$ 250</span>
+            </div>
+            <p class="product-card__text">
+              It is a long estiabs lished fact
+              that a reader will be the service.
+            </p>
+            <button class="btn btn__furniture">Order Now</button>
+          </a>
+        </article>
+      </li>
+      <li class="furniture__item mix category-d">
+        <article class="product-card">
+          <a class="product-card__link" href="#">
+            <img class="product-card__img" src="images/furniture5.png" alt="product description" width="260"
+              height="175">
+            <div class="product-card__desc">
+              <h3 class="product-card__title">
+                Furniture Name
+              </h3>
+              <span class="product-card__price">$ 250</span>
+            </div>
+            <p class="product-card__text">
+              It is a long estiabs lished fact
+              that a reader will be the service.
+            </p>
+            <button class="btn btn__furniture">Order Now</button>
+          </a>
+        </article>
+      </li>
+      <li class="furniture__item mix category-e">
+        <article class="product-card">
+          <a class="product-card__link" href="#">
+            <img class="product-card__img" src="images/furniture5.png" alt="product description" width="260"
+              height="175">
+            <div class="product-card__desc">
+              <h3 class="product-card__title">
+                Furniture Name
+              </h3>
+              <span class="product-card__price">$ 250</span>
+            </div>
+            <p class="product-card__text">
+              It is a long estiabs lished fact
+              that a reader will be the service.
+            </p>
+            <button class="btn btn__furniture">Order Now</button>
+          </a>
+        </article>
+      </li>
+      <li class="furniture__item mix category-e">
+        <article class="product-card">
+          <a class="product-card__link" href="#">
+            <img class="product-card__img" src="images/furniture7.png" alt="product description" width="260"
+              height="175">
+            <div class="product-card__desc">
+              <h3 class="product-card__title">
+                Furniture Name
+              </h3>
+              <span class="product-card__price">$ 250</span>
+            </div>
+            <p class="product-card__text">
+              It is a long estiabs lished fact
+              that a reader will be the service.
+            </p>
+            <button class="btn btn__furniture">Order Now</button>
+          </a>
+        </article>
+      </li>
+      <li class="furniture__item mix category-f">
+        <article class="product-card">
+          <a class="product-card__link" href="#">
+            <img class="product-card__img" src="images/furniture6.png" alt="product description" width="260"
+              height="175">
+            <div class="product-card__desc">
+              <h3 class="product-card__title">
+                Furniture Name
+              </h3>
+              <span class="product-card__price">$ 250</span>
+            </div>
+            <p class="product-card__text">
+              It is a long estiabs lished fact
+              that a reader will be the service.
+            </p>
+            <button class="btn btn__furniture">Order Now</button>
+          </a>
+        </article>
+      </li>
+      <li class="furniture__item mix category-f">
+        <article class="product-card">
+          <a class="product-card__link" href="#">
+            <img class="product-card__img" src="images/furniture2.png" alt="product description" width="260"
+              height="175">
+            <div class="product-card__desc">
+              <h3 class="product-card__title">
+                Furniture Name
+              </h3>
+              <span class="product-card__price">$ 250</span>
+            </div>
+            <p class="product-card__text">
+              It is a long estiabs lished fact
+              that a reader will be the service.
+            </p>
+            <button class="btn btn__furniture">Order Now</button>
+          </a>
+        </article>
+      </li>
+      <li class="furniture__item mix category-g">
+        <article class="product-card">
+          <a class="product-card__link" href="#">
+            <img class="product-card__img" src="images/furniture7.png" alt="product description" width="260"
+              height="175">
+            <div class="product-card__desc">
+              <h3 class="product-card__title">
+                Furniture Name
+              </h3>
+              <span class="product-card__price">$ 250</span>
+            </div>
+            <p class="product-card__text">
+              It is a long estiabs lished fact
+              that a reader will be the service.
+            </p>
+            <button class="btn btn__furniture">Order Now</button>
+          </a>
+        </article>
+      </li>
+      <li class="furniture__item mix category-g">
+        <article class="product-card">
+          <a class="product-card__link" href="#">
+            <img class="product-card__img" src="images/furniture1.png" alt="product description" width="260"
+              height="175">
+            <div class="product-card__desc">
+              <h3 class="product-card__title">
+                Furniture Name
+              </h3>
+              <span class="product-card__price">$ 250</span>
+            </div>
+            <p class="product-card__text">
+              It is a long estiabs lished fact
+              that a reader will be the service.
+            </p>
+            <button class="btn btn__furniture">Order Now</button>
+          </a>
+        </article>
+      </li>
+      <li class="furniture__item mix category-h">
+        <article class="product-card">
+          <a class="product-card__link" href="#">
+            <img class="product-card__img" src="images/furniture8.png" alt="product description" width="260"
+              height="175">
+            <div class="product-card__desc">
+              <h3 class="product-card__title">
+                Furniture Name
+              </h3>
+              <span class="product-card__price">$ 250</span>
+            </div>
+            <p class="product-card__text">
+              It is a long estiabs lished fact
+              that a reader will be the service.
+            </p>
+            <button class="btn btn__furniture">Order Now</button>
+          </a>
+        </article>
+      </li>
+      <li class="furniture__item mix category-h">
+        <article class="product-card">
+          <a class="product-card__link" href="#">
+            <img class="product-card__img" src="images/furniture5.png" alt="product description" width="260"
+              height="175">
+            <div class="product-card__desc">
+              <h3 class="product-card__title">
+                Furniture Name
+              </h3>
+              <span class="product-card__price">$ 250</span>
+            </div>
+            <p class="product-card__text">
+              It is a long estiabs lished fact
+              that a reader will be the service.
+            </p>
+            <button class="btn btn__furniture">Order Now</button>
+          </a>
+        </article>
+      </li>
+      <li class="furniture__item mix category-i">
+        <article class="product-card">
+          <a class="product-card__link" href="#">
+            <img class="product-card__img" src="images/furniture1.png" alt="product description" width="260"
+              height="175">
+            <div class="product-card__desc">
+              <h3 class="product-card__title">
+                Furniture Name
+              </h3>
+              <span class="product-card__price">$ 250</span>
+            </div>
+            <p class="product-card__text">
+              It is a long estiabs lished fact
+              that a reader will be the service.
+            </p>
+            <button class="btn btn__furniture">Order Now</button>
+          </a>
+        </article>
+      </li>
+      <li class="furniture__item mix category-i">
+        <article class="product-card">
+          <a class="product-card__link" href="#">
+            <img class="product-card__img" src="images/furniture3.png" alt="product description" width="260"
+              height="175">
+            <div class="product-card__desc">
+              <h3 class="product-card__title">
+                Furniture Name
+              </h3>
+              <span class="product-card__price">$ 250</span>
+            </div>
+            <p class="product-card__text">
+              It is a long estiabs lished fact
+              that a reader will be the service.
+            </p>
+            <button class="btn btn__furniture">Order Now</button>
+          </a>
+        </article>
+      </li>
+      <li class="furniture__item mix category-j">
+        <article class="product-card">
+          <a class="product-card__link" href="#">
+            <img class="product-card__img" src="images/furniture2.png" alt="product description" width="260"
+              height="175">
+            <div class="product-card__desc">
+              <h3 class="product-card__title">
+                Furniture Name
+              </h3>
+              <span class="product-card__price">$ 250</span>
+            </div>
+            <p class="product-card__text">
+              It is a long estiabs lished fact
+              that a reader will be the service.
+            </p>
+            <button class="btn btn__furniture">Order Now</button>
+          </a>
+        </article>
+      </li>
+      <li class="furniture__item mix category-j">
+        <article class="product-card">
+          <a class="product-card__link" href="#">
+            <img class="product-card__img" src="images/furniture7.png" alt="product description" width="260"
+              height="175">
+            <div class="product-card__desc">
+              <h3 class="product-card__title">
+                Furniture Name
+              </h3>
+              <span class="product-card__price">$ 250</span>
+            </div>
+            <p class="product-card__text">
+              It is a long estiabs lished fact
+              that a reader will be the service.
+            </p>
+            <button class="btn btn__furniture">Order Now</button>
+          </a>
+        </article>
+      </li>
+      <li class="furniture__item mix category-d">
+        <article class="product-card">
+          <a class="product-card__link" href="#">
+            <img class="product-card__img" src="images/furniture3.png" alt="product description" width="260"
+              height="175">
+            <div class="product-card__desc">
+              <h3 class="product-card__title">
+                Furniture Name
+              </h3>
+              <span class="product-card__price">$ 250</span>
+            </div>
+            <p class="product-card__text">
+              It is a long estiabs lished fact
+              that a reader will be the service.
+            </p>
+            <button class="btn btn__furniture">Order Now</button>
+          </a>
+        </article>
+      </li>
+      <li class="furniture__item mix category-d">
+        <article class="product-card">
+          <a class="product-card__link" href="#">
+            <img class="product-card__img" src="images/furniture5.png" alt="product description" width="260"
+              height="175">
+            <div class="product-card__desc">
+              <h3 class="product-card__title">
+                Furniture Name
+              </h3>
+              <span class="product-card__price">$ 250</span>
+            </div>
+            <p class="product-card__text">
+              It is a long estiabs lished fact
+              that a reader will be the service.
+            </p>
+            <button class="btn btn__furniture">Order Now</button>
+          </a>
+        </article>
+      </li>
+      <li class="furniture__item mix category-c">
+        <article class="product-card">
+          <a class="product-card__link" href="#">
+            <img class="product-card__img" src="images/furniture4.png" alt="product description" width="260"
+              height="175">
+            <div class="product-card__desc">
+              <h3 class="product-card__title">
+                Furniture Name
+              </h3>
+              <span class="product-card__price">$ 250</span>
+            </div>
+            <p class="product-card__text">
+              It is a long estiabs lished fact
+              that a reader will be the service.
+            </p>
+            <button class="btn btn__furniture">Order Now</button>
+          </a>
+        </article>
+      </li>
+      <li class="furniture__item mix category-c">
+        <article class="product-card">
+          <a class="product-card__link" href="#">
+            <img class="product-card__img" src="images/furniture6.png" alt="product description" width="260"
+              height="175">
+            <div class="product-card__desc">
+              <h3 class="product-card__title">
+                Furniture Name
+              </h3>
+              <span class="product-card__price">$ 250</span>
+            </div>
+            <p class="product-card__text">
+              It is a long estiabs lished fact
+              that a reader will be the service.
+            </p>
+            <button class="btn btn__furniture">Order Now</button>
+          </a>
+        </article>
+      </li>
+    </ul>
+    <button class="btn btn__furniture-all" type="button">
+      View All
+    </button>
+  </div>
+</section>
+    <section class="reviews section">
+  <div class="container">
+    <h2 class="title">
+      What say clients about us
+    </h2>
+    <span class="subtitle subtitle__service">
+      It is a long established fact that
+      a reader will be distracted by the service.
+    </span>
+    <div class="reviews__inner">
+      <div class="reviews__box">
+        <div class="reviews__item">
+          <img class="reviews__img" src="images/reviews1.png" alt="foto" width="165" height="225">
+          <div class="reviews__descr">
+            <blockquote class="reviews__text">
+              <cite class="reviews__name">
+                Mr. Jone Ambrose
+              </cite>
+              “Lorem Ipsum has been the industry by standard dummy
+              text ever to since the 1500s, it’s type and scrambled
+              it to make a type specimen book. It’s has
+              survived not only five.”
+            </blockquote>
+            <div class="star" data-rateyo-rating="5"></div>
+          </div>
+        </div>
+      </div>
+      <div class="reviews__box">
+        <div class="reviews__item">
+          <img class="reviews__img" src="images/reviews2.png" alt="foto" width="165" height="225">
+          <div class="reviews__descr">
+            <blockquote class="reviews__text">
+              <cite class="reviews__name">
+                Mr. Jone Ambrose
+              </cite>
+              “Lorem Ipsum has been the industry by standard dummy
+              text ever to since the 1500s, it’s type and scrambled
+              it to make a type specimen book. It’s has
+              survived not only five.”
+            </blockquote>
+            <div class="star" data-rateyo-rating="5"></div>
+          </div>
+        </div>
+      </div>
+      <div class="reviews__box">
+        <div class="reviews__item">
+          <img class="reviews__img" src="images/reviews1.png" alt="foto" width="165" height="225">
+          <div class="reviews__descr">
+            <blockquote class="reviews__text">
+              <cite class="reviews__name">
+                Mr. Jone Ambrose
+              </cite>
+              “Lorem Ipsum has been the industry by standard dummy
+              text ever to since the 1500s, it’s type and scrambled
+              it to make a type specimen book. It’s has
+              survived not only five.”
+            </blockquote>
+            <div class="star" data-rateyo-rating="5"></div>
+          </div>
+        </div>
+      </div>
+      <div class="reviews__box">
+        <div class="reviews__item">
+          <img class="reviews__img" src="images/reviews2.png" alt="foto" width="165" height="225">
+          <div class="reviews__descr">
+            <blockquote class="reviews__text">
+              <cite class="reviews__name">
+                Mr. Jone Ambrose
+              </cite>
+              “Lorem Ipsum has been the industry by standard dummy
+              text ever to since the 1500s, it’s type and scrambled
+              it to make a type specimen book. It’s has
+              survived not only five.”
+            </blockquote>
+            <div class="star" data-rateyo-rating="5"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <address class="address">
+        <ul class="address__list">
+          <li class="address__item">
+            <a class="address__cont address__cont-logo" href="#">
+              <img class="address__img" src="images/logo-white.svg" alt="logo">
+            </a>
+          </li>
+          <li class="address__item">
+            <a class="address__cont" href="tel:+8801760-007083" aria-label="number phone">
+              <svg class="address__icon" width="32" height="32">
+                <use xlink:href="images/sprite.svg#calling"></use>
+              </svg>
+              +8801760-007083
+            </a>
+          </li>
+          <li class="address__item">
+            <a class="address__cont" href="mailto:uiuxmdomith@gmail.com" aria-label="mail address">
+              <svg class="address__icon" width="32" height="32">
+                <use xlink:href="images/sprite.svg#message"></use>
+              </svg>
+              uiuxmdomith@gmail.com
+            </a>
+          </li>
+        </ul>
+        <ul class="social">
+          <li class="social__item">
+            <a class="social__link" href="https://www.facebook.com/" aria-label="links to facebook">
+              <svg class="social__icon" width="20" height="20">
+                <use xlink:href="images/sprite.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="https://twitter.com/" aria-label="links to twitter">
+              <svg class="social__icon" width="20" height="20">
+                <use xlink:href="images/sprite.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="https://www.instagram.com/" aria-label="links to instagram">
+              <svg class="social__icon" width="20" height="20">
+                <use xlink:href="images/sprite.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </address>
+      <ul class="footer__menu-list">
+        <li class="footer__menu-item">
+          <h3 class="footer__title">Usefull Links</h3>
+        </li>
+        <li class="footer__menu-item">
+          <a data-goto=".hero" class="footer__menu-link" href="#" aria-label="links to home section">
+            Home
+          </a>
+        </li>
+        <li class="footer__menu-item">
+          <a data-goto=".about" class="footer__menu-link" href="#" aria-label="links to about section">
+            About
+          </a>
+        </li>
+        <li class="footer__menu-item">
+          <a data-goto=".service" class="footer__menu-link" href="#" aria-label="links to service section">
+            Service
+          </a>
+        </li>
+        <li class="footer__menu-item">
+          <a data-goto=".furniture" class="footer__menu-link" href="#" aria-label="links to furniture section">
+            Furniture
+          </a>
+        </li>
+      </ul>
+      <ul class="footer__question-list">
+        <li class="footer__question-item">
+          <h3 class="footer__title">FAQ</h3>
+        </li>
+        <li class="footer__question-item">
+          <a class="footer__question-link" href="#" aria-label="answers to questions 'About products'">
+            "About products"
+          </a>
+        </li>
+        <li class="footer__question-item">
+          <a class="footer__question-link" href="#" aria-label="answers to questions 'Terms of delivery'">
+            "Terms of delivery"
+          </a>
+        </li>
+        <li class="footer__question-item">
+          <a class="footer__question-link" href="#" aria-label="answers to questions 'Terms of payment'">
+            "Terms of payment"
+          </a>
+        </li>
+        <li class="footer__question-item">
+          <a class="footer__question-link" href="#" aria-label="answers to questions 'Choice of sizes'">
+            "Choice of sizes"
+          </a>
+        </li>
+      </ul>
+      <div class="footer__connect">
+        <h3 class="footer__title">Newsletter</h3>
+        <form class="footer__form" action="#">
+          <label class="footer__label">
+            <input class="footer__input" type="email" name="yourEmail" placeholder="Enter your mail" required>
+          </label>
+          <button class="footer__button" type="submit">
+            Send
+          </button>
+        </form>
+        <a class="footer__button footer__button-app" href="#">Download App</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.min.js"></script>
+</body>
+
+</html>
